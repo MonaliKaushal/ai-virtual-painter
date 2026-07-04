@@ -1,0 +1,46 @@
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Editor & IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Logs
+*.log
+*.err
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Large model files (re-download automatically on first run)
+# Uncomment the line below if you don't want to commit the model file
+# hand_landmarker.task
